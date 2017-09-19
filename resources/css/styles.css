@@ -11,19 +11,24 @@ header {
     z-index: 1;
 }
 
+.logo {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+
 .logo img {
     margin-right: 12px;
 }
+
 .logo span {
     color: mediumaquamarine;
 }
 
-nav {
-    display: inline-block;
-    padding-right: 40px;
-    justify-content: flex-end;
-}
-
 a {
     color: black;
+}
+
+nav span {
+        padding-right: 15px;
 }
