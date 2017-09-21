@@ -1,3 +1,9 @@
+div {
+    border: 1px solid black;
+}
+
+/**Header - START**/
+    
 header {
     display: flex;
     font-family: Verdana;
@@ -32,3 +38,32 @@ a {
 nav span {
         padding-right: 15px;
 }
+
+/**Header - END**/
+
+/**Main Content - START**/
+
+.main {
+    display: flex;
+}
+
+.column {
+    display: flex;
+}
+
+.column.large {
+    width: 630px;
+    display: block;
+}
+
+.column.medium {
+    width: 300px;
+    display: block;
+}
+
+.column.small {
+    width: 240px;
+    display: block;
+}
+
+/**Main Content - END**/
