@@ -85,6 +85,10 @@ nav span {
     height: 300px;
 }
 
+.text {
+    height: 250px;
+}
+
 .mother {
     background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
 }
@@ -115,6 +119,26 @@ nav span {
 
 .cat {
     background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
+}
+
+.bites-headline {
+    font-size: 16px;
+    text-align: center;
+}
+
+.bite {
+    border-bottom: 1px solid black;
+    background-color: WhiteSmoke;
+    font-family: Verdana;
+    font-size: 12px;
+    color: DimGray;
+    display: block;
+    padding: 10px;
+}
+
+.news-bites {
+    flex-direction: column;
+
 }
 
 /**Main Content - END**/
