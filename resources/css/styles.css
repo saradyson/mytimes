@@ -97,8 +97,7 @@ nav span {
 
 .stories {
     display: flex;
-    justify-content: space-between;
-    
+    flex-direction: column;
 }
 
 .earth {
