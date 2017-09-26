@@ -92,12 +92,17 @@ nav span {
 #mother {
     text-align: left;
     font-size: 40px;
-    margin-left: 5px;
+}
+
+.flex-column {
+    display: flex;
+    justify-content: space-between;
 }
 
 .stories {
     display: flex;
     flex-direction: column;
+    max-width: 300px;
 }
 
 .earth {
