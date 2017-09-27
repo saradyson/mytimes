@@ -12,6 +12,7 @@ header {
     height: 80px;
     position: fixed;
     z-index: 1;
+    background-color: white;
 }
 
 .logo {
@@ -138,7 +139,44 @@ nav span {
 
 .news-bites {
     flex-direction: column;
-
 }
 
+
 /**Main Content - END**/
+
+/**Footer - START**/
+
+.footer {
+    background-color: MediumAquamarine;
+    display: flex;
+    height: 325px;
+    margin: auto;
+    font-family: Verdana;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.top-footer {
+    display: inline-flex;
+}
+
+.site-title {
+    color: #fff;
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: 16px;
+    border-right: 2px solid white;
+    padding-right: 20px;
+}
+
+.footer-nav span {
+    margin-left: 20px;
+}
+
+.bottom-footer {
+    margin-top: 15px;
+}
+
+/**Footer - END**/
